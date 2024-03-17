@@ -70,14 +70,14 @@ export const theme = {
       navLink: "'PT Sans', 'Trebuchet MS', Helvetica, Verdana, Arial",
     },
     size: {
-      xxSmall: "0.75rem",
-      xSmall: "0.875rem",
-      small: "1rem",
-      medium: "1.3rem",
-      large: "1.75rem",
-      xLarge: "2.3rem",
-      xxLarge: "3.1rem",
-      xxxLarge: "4rem",
+      xxSmall: "0.75rem", // 12px
+      xSmall: "1rem", // 16px
+      small: "1.125rem", // 18px
+      medium: "1.313rem", // 21px
+      large: "1.75rem", // 28px
+      xLarge: "2.313rem", // 37px
+      xxLarge: "3.125rem", // 50px
+      xxxLarge: "4.88rem", // 67px
     },
     weight: {
       thin: "300",

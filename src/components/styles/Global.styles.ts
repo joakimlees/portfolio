@@ -2,10 +2,20 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     height: 100vh;
-    margin 0px; 
 }
+
+#root {
+    height: 100%;
+}
+
+
 
 h1 {
     font-size: ${({ theme }) => theme.font.size.large};

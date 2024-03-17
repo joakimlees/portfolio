@@ -21,12 +21,14 @@ interface theme {
       navLink: string;
     };
     size: {
+      xxSmall: string;
       xSmall: string;
       small: string;
       medium: string;
       large: string;
       xLarge: string;
       xxLarge: string;
+      xxxLarge: string;
     };
     weight: {
       thin: string;
@@ -59,18 +61,23 @@ export const theme = {
   },
   font: {
     family: {
-      heading: "Teko",
-      paragraph: "IBM Plex Sans Condensed",
-      title: "PT Sans",
-      textLink: "IBM Plex Sans Condensed",
-      navLink: "PT Sans",
+      heading: "Teko, 'Trebuchet MS', Helvetica, Verdana, Arial",
+      paragraph:
+        "'IBM Plex Sans Condensed', Verdana, Arial, Helvetica, 'Trebuchet MS'",
+      title: "'PT Sans', Verdana, Arial, Helvetica, 'Trebuchet MS'",
+      textLink:
+        "'IBM Plex Sans Condensed', Verdana, Arial, Helvetica, 'Trebuchet MS'",
+      navLink: "'PT Sans', 'Trebuchet MS', Helvetica, Verdana, Arial",
     },
     size: {
+      xxSmall: "0.75rem",
+      xSmall: "0.875rem",
       small: "1rem",
       medium: "1.3rem",
       large: "1.75rem",
       xLarge: "2.3rem",
       xxLarge: "3.1rem",
+      xxxLarge: "4rem",
     },
     weight: {
       thin: "300",

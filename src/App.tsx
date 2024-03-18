@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { GlobalStyles } from "./components/styles/Global.styles";
+import { GlobalStyles } from "./components/styles/Global.Styles";
 import * as Styled from "./components/styles/index";
 
 export default function App() {

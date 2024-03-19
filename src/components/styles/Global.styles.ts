@@ -15,6 +15,10 @@ body {
     height: 100%;
 }
 
+main {
+    height: 100%;
+}
+
 
 
 h1 {

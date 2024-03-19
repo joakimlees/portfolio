@@ -4,29 +4,29 @@ import { Link } from "react-router-dom";
 export function Nav() {
   return (
     <Styled.Navigation>
-      <div>
-        <Link to="">Logo</Link>
-      </div>
       <ul>
         <li>
-          <Link to="">About</Link>
+          <Link to="#">About</Link>
         </li>
         <li>
-          <Link to="">Projects</Link>
+          <Link to="#">Projects</Link>
+        </li>
+        <li>
+          <Link to="#">Contact</Link>
         </li>
       </ul>
       <ul className="social-links">
         <li>
-          <Link to="">GH</Link>
+          <Link to="#">GH</Link>
         </li>
         <li>
-          <Link to="">In</Link>
+          <Link to="#">In</Link>
         </li>
         <li>
-          <Link to="">IG</Link>
+          <Link to="#">IG</Link>
         </li>
         <li>
-          <Link to="">FB</Link>
+          <Link to="#">FB</Link>
         </li>
       </ul>
     </Styled.Navigation>

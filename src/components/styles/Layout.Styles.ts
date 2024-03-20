@@ -6,8 +6,9 @@ export const Layout = styled.div`
   height: 100%;
   background-image: linear-gradient(
     to bottom,
-    #1c173b 0%,
-    #1e0730 45%,
-    #1c173b 100%
+    ${({ theme }) => theme.color.darkBlue} 0%,
+    ${({ theme }) => theme.color.darkPurple} 45%,
+    ${({ theme }) => theme.color.darkBlue} 100%
   );
+  background-color: ${({ theme }) => theme.color.darkBlue};
 `;

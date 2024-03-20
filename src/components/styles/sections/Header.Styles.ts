@@ -1,18 +1,20 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  border-style: solid;
-  border-color: red;
+  background-color: ${({ theme }) => theme.color.darkBlue};
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px -10px ${({ theme }) => theme.color.dark};
 
   .headerContainer {
     display: flex;
     justify-content: space-between;
-    padding: 15px 25px;
+    padding: 25px 50px;
   }
 
   .logo {
     font-family: ${({ theme }) => theme.font.family.title};
     font-size: ${({ theme }) => theme.font.size.xSmall};
+    color: ${({ theme }) => theme.color.light};
     display: flex;
     align-items: baseline;
 
@@ -20,7 +22,7 @@ export const Header = styled.header`
       border-left: 10px solid ${({ theme }) => theme.color.lightTeal};
       border-bottom: 5px solid transparent;
       border-top: 5px solid transparent;
-      margin-right: 5px;
+      margin-right: 10px;
     }
   }
 `;

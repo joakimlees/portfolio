@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
   background-color: ${({ theme }) => theme.color.darkBlue};
   backdrop-filter: blur(10px);
-  box-shadow: 0 10px 30px -10px ${({ theme }) => theme.color.dark};
+  box-shadow: 0 10px 25px -15px ${({ theme }) => theme.color.dark};
 
   .headerContainer {
     display: flex;

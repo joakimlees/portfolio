@@ -16,7 +16,7 @@ interface theme {
     family: {
       heading: string;
       paragraph: string;
-      button: string;
+      title: string;
       textLink: string;
       navLink: string;
     };

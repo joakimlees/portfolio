@@ -12,9 +12,9 @@ export function Header() {
           </div>
           <div className="BurgerMenu">
             <figure>
-              <span>|</span>
-              <span>|</span>
-              <span>|</span>
+              <span className="lineOne"></span>
+              <span className="lineOne"></span>
+              <span className="lineOne"></span>
             </figure>
           </div>
           <Nav />

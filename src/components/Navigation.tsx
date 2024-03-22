@@ -24,22 +24,22 @@ export function Nav() {
       <ul className="social-links">
         <li>
           <Link to="#">
-            <img src={githubIcon} alt="" />
+            <img src={githubIcon} alt="github logo" />
           </Link>
         </li>
         <li>
           <Link to="#">
-            <img src={linkedinIcon} alt="" />
+            <img src={linkedinIcon} alt="linkedin logo" />
           </Link>
         </li>
         <li>
           <Link to="#">
-            <img src={facebookIcon} alt="" />
+            <img src={facebookIcon} alt="facebook logo" />
           </Link>
         </li>
         <li>
           <Link to="#">
-            <img src={instagramIcon} alt="" />
+            <img src={instagramIcon} alt="instagram logo" />
           </Link>
         </li>
       </ul>

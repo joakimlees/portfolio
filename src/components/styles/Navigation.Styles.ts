@@ -16,10 +16,14 @@ export const Navigation = styled.nav`
   ul {
     list-style: none;
     text-decoration: none;
+    width: 100%;
+    padding: 0px 40px;
 
     li {
+      margin: 50px 0px;
+
       a {
-        font-size: ${({ theme }) => theme.font.size.small};
+        font-size: ${({ theme }) => theme.font.size.medium};
         font-family: ${({ theme }) => theme.font.family.navLink};
         font-weight: ${({ theme }) => theme.font.weight.semiBold};
         color: ${({ theme }) => theme.color.light};
@@ -30,16 +34,11 @@ export const Navigation = styled.nav`
 
   ul.social-links {
     display: flex;
-    justify-content: space-around;
-    border-style: solid;
-    width: 100%;
-
-    li {
-      width: 30px;
-    }
+    justify-content: space-between;
 
     img {
       width: 100%;
+      max-width: 30px;
     }
   }
 `;

@@ -10,11 +10,9 @@ export function Header() {
             <span></span>
             <div>joakimlees</div>
           </div>
-          <div className="BurgerMenu">
+          <div className="menu">
             <figure>
-              <span className="lineOne"></span>
-              <span className="lineOne"></span>
-              <span className="lineOne"></span>
+              <span className="burger"></span>
             </figure>
           </div>
           <Nav />

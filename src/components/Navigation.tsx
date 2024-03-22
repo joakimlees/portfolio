@@ -1,5 +1,11 @@
 import * as Styled from "./styles/index";
 import { Link } from "react-router-dom";
+import {
+  facebookIcon,
+  githubIcon,
+  instagramIcon,
+  linkedinIcon,
+} from "../build/images/index";
 
 export function Nav() {
   return (
@@ -17,16 +23,24 @@ export function Nav() {
       </ul>
       <ul className="social-links">
         <li>
-          <Link to="#">GH</Link>
+          <Link to="#">
+            <img src={githubIcon} alt="" />
+          </Link>
         </li>
         <li>
-          <Link to="#">In</Link>
+          <Link to="#">
+            <img src={linkedinIcon} alt="" />
+          </Link>
         </li>
         <li>
-          <Link to="#">IG</Link>
+          <Link to="#">
+            <img src={facebookIcon} alt="" />
+          </Link>
         </li>
         <li>
-          <Link to="#">FB</Link>
+          <Link to="#">
+            <img src={instagramIcon} alt="" />
+          </Link>
         </li>
       </ul>
     </Styled.Navigation>

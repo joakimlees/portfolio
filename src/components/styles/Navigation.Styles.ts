@@ -27,4 +27,19 @@ export const Navigation = styled.nav`
       }
     }
   }
+
+  ul.social-links {
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    width: 100%;
+
+    li {
+      width: 30px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 `;

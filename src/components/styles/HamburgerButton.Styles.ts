@@ -24,7 +24,7 @@ export const HamburgerButton = styled.button`
     span {
       position: absolute;
       display: block;
-      width: 100%;
+      width: 70%;
       height: 0px;
       border: 2px solid white;
       border-radius: 10px;
@@ -33,18 +33,15 @@ export const HamburgerButton = styled.button`
     .lineOne {
       top: 0;
       left: 0;
-      width: 70%;
     }
 
     .lineTwo {
-      width: 70%;
       left: 15%;
     }
 
     .lineThree {
       bottom: 0;
       right: 0;
-      width: 70%;
     }
   }
 `;

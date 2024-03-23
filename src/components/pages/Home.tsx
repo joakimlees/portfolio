@@ -1,4 +1,4 @@
-import * as Styled from "./styles/index";
+import * as Styled from "../styles/index";
 
 export function Home() {
   return (

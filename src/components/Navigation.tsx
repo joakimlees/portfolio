@@ -5,7 +5,7 @@ import {
   githubIcon,
   instagramIcon,
   linkedinIcon,
-} from "../build/images/index";
+} from "../build/icons/index";
 
 export function Nav() {
   return (

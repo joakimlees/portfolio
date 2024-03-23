@@ -1,5 +1,5 @@
 import * as Styled from "../styles/index";
-import { Nav } from "../Navigation";
+import { Nav, HamburgerButton } from "../index";
 
 export function Header() {
   return (
@@ -10,10 +10,8 @@ export function Header() {
             <span></span>
             <div>joakimlees</div>
           </div>
-          <div className="menu">
-            <figure>
-              <span className="burger"></span>
-            </figure>
+          <div>
+            <HamburgerButton />
           </div>
           <Nav />
         </div>

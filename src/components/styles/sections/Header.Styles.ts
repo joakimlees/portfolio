@@ -25,22 +25,4 @@ export const Header = styled.header`
       margin-right: 10px;
     }
   }
-
-  .menu {
-    z-index: 1;
-  }
-  figure {
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
-    position: relative;
-  }
-
-  .burger {
-    width 100%;
-    height: 2px;
-    background: white;
-    border-radius: 10px;
-  }
-
 `;

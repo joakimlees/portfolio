@@ -8,7 +8,7 @@ export const Header = styled.header`
   .headerContainer {
     display: flex;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 25px 50px;
   }
 
   .logo {

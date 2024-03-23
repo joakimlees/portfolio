@@ -3,7 +3,7 @@ import { GlobalStyles } from "./components/styles/Global.Styles";
 import * as Styled from "./components/styles/index";
 import { Routes, Route } from "react-router-dom";
 import { Layout } from "./components/Layout";
-import { Home } from "./components/Home";
+import { Home } from "./components/pages/Home";
 
 export default function App() {
   return (

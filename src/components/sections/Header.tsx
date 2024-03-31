@@ -1,7 +1,10 @@
 import * as Styled from "../styles/index";
 import { Nav, HamburgerButton } from "../index";
+import { useState } from "react";
 
 export function Header() {
+  const [test, setTest] = useState(false);
+
   return (
     <Styled.Header>
       <Styled.CSContainer>
@@ -11,7 +14,7 @@ export function Header() {
             <div>joakimlees</div>
           </div>
           <div>
-            <HamburgerButton />
+            <HamburgerButton test={test} setTest={setTest} />
           </div>
           <Nav />
         </div>

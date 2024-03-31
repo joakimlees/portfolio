@@ -1,3 +1,4 @@
+/*
 import { createContext, useContext, useState, ReactNode } from "react";
 
 interface MenuContextType {
@@ -5,9 +6,9 @@ interface MenuContextType {
   setIsMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-interface MenuProviderProps {
+type MenuProviderProps = {
   children: ReactNode;
-}
+};
 
 const MenuContext = createContext<MenuContextType | undefined>(undefined);
 
@@ -28,3 +29,5 @@ export const useMenu = (): MenuContextType => {
   }
   return context;
 };
+
+*/

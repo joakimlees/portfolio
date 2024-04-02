@@ -5,6 +5,17 @@ import { useState } from "react";
 export function Header() {
   const [test, setTest] = useState(false);
 
+  let displayMenu: string = "";
+  if (test) {
+    console.log("closing menu");
+    displayMenu = "closed";
+  }
+
+  if (!test) {
+    console.log("opening menu");
+    displayMenu = "opened";
+  }
+
   return (
     <Styled.Header>
       <Styled.CSContainer>
@@ -16,7 +27,9 @@ export function Header() {
           <div>
             <HamburgerButton test={test} setTest={setTest} />
           </div>
-          <Nav />
+          <div className={displayMenu}>
+            <Nav />
+          </div>
         </div>
       </Styled.CSContainer>
     </Styled.Header>

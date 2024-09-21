@@ -1,26 +1,23 @@
 import * as Styled from "./styles/index";
 
 type ButtonProps = {
-  test: boolean;
-  setTest: React.Dispatch<React.SetStateAction<boolean>>;
+  setMenuState: React.Dispatch<React.SetStateAction<boolean>>;
+  menuState: boolean;
 };
 
-export function HamburgerButton({ test, setTest }: ButtonProps) {
-  function handleCLick() {
-    if (!test) {
-      console.log("open");
-      setTest(true);
-      console.log(test);
-    }
-    if (test) {
-      console.log("close");
-      setTest(false);
-      console.log(test);
+export function HamburgerButton({ menuState, setMenuState }: ButtonProps) {
+  function clicked() {
+    if (menuState === true) {
+      setMenuState(false);
+      console.log("false state");
+    } else {
+      setMenuState(true);
+      console.log("true state");
     }
   }
 
   return (
-    <Styled.HamburgerButton onClick={handleCLick}>
+    <Styled.HamburgerButton onClick={clicked}>
       <div>
         <span className="lineOne"></span>
         <span className="lineTwo"></span>

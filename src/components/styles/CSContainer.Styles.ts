@@ -5,6 +5,6 @@ export const CSContainer = styled.div`
   margin: 0px auto;
 
   h1 {
-    color: white;
+    color: grey;
   }
 `;

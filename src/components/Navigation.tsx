@@ -1,5 +1,6 @@
 import * as Styled from "./styles/index";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import {
   facebookIcon,
   githubIcon,
@@ -7,7 +8,19 @@ import {
   linkedinIcon,
 } from "../build/icons/index";
 
-export function Nav() {
+type navProps = {
+  menuState: boolean;
+};
+
+export function Nav({ menuState }: navProps) {
+  useEffect(() => {
+    if (menuState === true) {
+      console.log("useEffect true");
+    } else {
+      console.log("useEffect false");
+    }
+  }, [menuState]);
+
   return (
     <Styled.Navigation>
       <ul>

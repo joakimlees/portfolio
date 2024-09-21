@@ -5,20 +5,9 @@ import { useState } from "react";
 export function Header() {
   const [menuState, setMenuState] = useState(false);
 
-  /*
-  const [test, setTest] = useState(false);
+  console.log(menuState);
+  console.log("hello");
 
-  let displayMenu: string = "";
-  if (test) {
-    console.log("closing menu");
-    displayMenu = "closed";
-  }
-
-  if (!test) {
-    console.log("opening menu");
-    displayMenu = "opened";
-  }
-*/
   return (
     <Styled.Header>
       <Styled.CSContainer>
@@ -34,7 +23,7 @@ export function Header() {
             />
           </div>
           <div>
-            <Nav />
+            <Nav menuState={menuState} />
           </div>
         </div>
       </Styled.CSContainer>

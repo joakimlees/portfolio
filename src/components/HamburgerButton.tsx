@@ -1,17 +1,17 @@
 import * as Styled from "./styles/index";
 
 type ButtonProps = {
-  setMenuState: React.Dispatch<React.SetStateAction<boolean>>;
-  menuState: boolean;
+  setMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  menuOpen: boolean;
 };
 
-export function HamburgerButton({ menuState, setMenuState }: ButtonProps) {
+export function HamburgerButton({ menuOpen, setMenuOpen }: ButtonProps) {
   function clicked() {
-    if (menuState === true) {
-      setMenuState(false);
+    if (menuOpen === true) {
+      setMenuOpen(false);
       console.log("false state");
     } else {
-      setMenuState(true);
+      setMenuOpen(true);
       console.log("true state");
     }
   }

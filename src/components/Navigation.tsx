@@ -9,17 +9,17 @@ import {
 } from "../build/icons/index";
 
 type navProps = {
-  menuState: boolean;
+  menuOpen: boolean;
 };
 
-export function Nav({ menuState }: navProps) {
+export function Nav({ menuOpen }: navProps) {
   useEffect(() => {
-    if (menuState === true) {
+    if (menuOpen === true) {
       console.log("useEffect true");
     } else {
       console.log("useEffect false");
     }
-  }, [menuState]);
+  }, [menuOpen]);
 
   return (
     <Styled.Navigation>

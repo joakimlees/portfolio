@@ -3,9 +3,9 @@ import { Nav, HamburgerButton } from "../index";
 import { useState } from "react";
 
 export function Header() {
-  const [menuState, setMenuState] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  console.log(menuState);
+  console.log(menuOpen);
   console.log("hello");
 
   return (
@@ -17,13 +17,10 @@ export function Header() {
             <div>joakimlees</div>
           </div>
           <div>
-            <HamburgerButton
-              setMenuState={setMenuState}
-              menuState={menuState}
-            />
+            <HamburgerButton setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
           </div>
           <div>
-            <Nav menuState={menuState} />
+            <Nav menuOpen={menuOpen} />
           </div>
         </div>
       </Styled.CSContainer>

@@ -1,6 +1,6 @@
 import * as Styled from "./styles/index";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   facebookIcon,
   githubIcon,
@@ -13,16 +13,20 @@ type navProps = {
 };
 
 export function Nav({ menuOpen }: navProps) {
+  const [display, setDisplay] = useState<string>("hidden");
+
   useEffect(() => {
     if (menuOpen === true) {
+      setDisplay("open");
       console.log("useEffect true");
     } else {
       console.log("useEffect false");
+      setDisplay("hidden");
     }
   }, [menuOpen]);
 
   return (
-    <Styled.Navigation>
+    <Styled.Navigation className={display}>
       <ul>
         <li>
           <Link to="#">About</Link>

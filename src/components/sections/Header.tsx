@@ -6,7 +6,7 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   console.log(menuOpen);
-  console.log("hello");
+  console.log("hello this");
 
   return (
     <Styled.Header>

@@ -1,7 +1,14 @@
 import styled from "styled-components";
 
 export const Navigation = styled.nav`
-  display: ${({ className }) => (className === "open" ? "flex" : "none")};
+  &.open {
+    display: flex;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
   flex-direction: column;
   justify-content: center;
   align-items: center;

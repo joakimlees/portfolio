@@ -1,14 +1,7 @@
 import styled from "styled-components";
 
 export const Navigation = styled.nav`
-  &.open {
-    display: flex;
-  }
-
-  &.hidden {
-    display: none;
-  }
-
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -19,6 +12,10 @@ export const Navigation = styled.nav`
   height: 100vh;
   width: min(75vw, 375px);
   box-shadow: -10px 0 25px -15px ${({ theme }) => theme.color.dark};
+
+  transition: transform 0.3s ease-in-out;
+  transform: ${({ className }) =>
+    className === "open" ? "translateX(0)" : "translateX(100%)"};
 
   ul {
     list-style: none;

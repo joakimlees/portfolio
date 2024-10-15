@@ -51,7 +51,7 @@ export const HamburgerButton = styled.button`
     &.open {
       .lineOne {
         transform: rotate(45deg) translate(5px, 5px);
-        top: 50%;
+        top: 0%;
       }
 
       .lineTwo {
@@ -60,7 +60,8 @@ export const HamburgerButton = styled.button`
 
       .lineThree {
         transform: rotate(-45deg) translate(5px, -5px);
-        bottom: 50%;
+        bottom: 40%;
+        left: 0%;
       }
     }
 

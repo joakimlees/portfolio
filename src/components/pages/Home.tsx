@@ -1,10 +1,11 @@
 import * as Styled from "../styles/index";
+import { Hero } from "../sections/Hero";
 
 export function Home() {
   return (
     <Styled.Home>
       <Styled.CSContainer>
-        <h1>Hello world</h1>
+        <Hero />
       </Styled.CSContainer>
     </Styled.Home>
   );

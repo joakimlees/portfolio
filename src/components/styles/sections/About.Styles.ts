@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const Hero = styled.section`
-
+export const About = styled.section`
 
     max-width: 1080px;
     margin: 0px auto;
-    height: 2000px;
+    height: 3000px;
+
 
      h1 {
      font-family: color:${({ theme }) => theme.font.family.heading};

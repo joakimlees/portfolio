@@ -7,3 +7,4 @@ export * from "./CSContainer.Styles";
 export * from "./pages/Home.Styles";
 export * from "./HamburgerButton.Styles";
 export * from "./sections/Hero.Styles";
+export * from "./sections/About.Styles";

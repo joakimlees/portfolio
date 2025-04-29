@@ -17,10 +17,12 @@ interface theme {
   font: {
     family: {
       heading: string;
-      paragraph: string;
+      body: string;
       title: string;
-      textLink: string;
+      link: string;
       navLink: string;
+      button: string;
+      util: string;
     };
     size: {
       xxSmall: string;
@@ -34,9 +36,17 @@ interface theme {
     };
     weight: {
       thin: string;
+      extraLight: string;
+      light: string;
       regular: string;
+      medium: string;
       semiBold: string;
       bold: string;
+      extraBold: string;
+      black: string;
+    };
+    style: {
+      italic: string;
     };
   };
   screen: {
@@ -64,7 +74,7 @@ export const theme = {
     errorRed: "#DC3545",
   },
   font: {
-    type: {
+    family: {
       heading: "'Barlow', 'Roboto', 'Work Sans', 'Poppins', sans-serif",
       body: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
       title: "'Barlow', 'Roboto', 'Work Sans', 'Poppins', sans-serif",

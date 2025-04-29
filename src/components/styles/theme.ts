@@ -1,16 +1,18 @@
 interface theme {
   color: {
-    darkPurple: string;
-    darkBlue: string;
-    darkGreen: string;
-    teal: string;
-    lightTeal: string;
-    blue: string;
-    purple: string;
-    yellow: string;
-    pink: string;
-    light: string;
-    dark: string;
+    primaryTeal: string;
+    accentYellow: string;
+    accentPink: string;
+    primaryLight: string;
+    primaryDark: string;
+    altDark: string;
+    cardBackground: string;
+    secondaryGray: string;
+    lightHover: string;
+    darkHover: string;
+    successGreen: string;
+    warningYellow: string;
+    errorRed: string;
   };
   font: {
     family: {
@@ -47,27 +49,29 @@ interface theme {
 
 export const theme = {
   color: {
-    darkPurple: "#1E0730",
-    darkBlue: "#1C173B",
-    darkGreen: "#10626C",
-    teal: "#00C9B0",
-    lightTeal: "#B5F0E8",
-    blue: "#94B8D6",
-    purple: "#BAB3DF",
-    yellow: "#FFFADE",
-    pink: "#EDE2F5",
-    light: "#fff",
-    dark: "#000",
+    primaryTeal: "#00A896",
+    accentYellow: "#F6C700",
+    accentPink: "#E94E77",
+    primaryLight: "#FAFAFA",
+    primaryDark: "#1F1F1F",
+    altDark: "#2A2A2A",
+    cardBackground: "#2F2F2F",
+    secondaryGray: "#4A4A4A",
+    lightHover: "#E5E5E5",
+    darkHover: "#3A3A3A",
+    successGreen: "#28A745",
+    warningYellow: "#FFC107",
+    errorRed: "#DC3545",
   },
   font: {
-    family: {
-      heading: "Teko, 'Trebuchet MS', Helvetica, Verdana, Arial",
-      paragraph:
-        "'IBM Plex Sans Condensed', Verdana, Arial, Helvetica, 'Trebuchet MS'",
-      title: "'PT Sans', Verdana, Arial, Helvetica, 'Trebuchet MS'",
-      textLink:
-        "'IBM Plex Sans Condensed', Verdana, Arial, Helvetica, 'Trebuchet MS'",
-      navLink: "'PT Sans', 'Trebuchet MS', Helvetica, Verdana, Arial",
+    type: {
+      heading: "'Barlow', 'Roboto', 'Work Sans', 'Poppins', sans-serif",
+      body: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
+      title: "'Barlow', 'Roboto', 'Work Sans', 'Poppins', sans-serif",
+      link: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
+      navLink: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
+      button: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
+      util: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
     },
     size: {
       xxSmall: "0.75rem", // 12px
@@ -81,9 +85,17 @@ export const theme = {
     },
     weight: {
       thin: "300",
+      extraLight: "200",
+      light: "300",
       regular: "400",
+      medium: "500",
       semiBold: "600",
       bold: "700",
+      extraBold: "800",
+      black: "900",
+    },
+    style: {
+      italic: "italic",
     },
   },
   screen: {

@@ -25,9 +25,7 @@ main {
 
 
 h1 {
-    font-size: ${({ theme }) => theme.font.size.large};
-    color: ${({ theme }) => theme.color.darkPurple};
-    font-family: ${({ theme }) => theme.font.family.heading};
+  
 }
 
 

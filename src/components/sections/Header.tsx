@@ -1,6 +1,7 @@
 import * as Styled from "../styles/index";
 import { Nav, HamburgerButton } from "../index";
 import { useState } from "react";
+import { Logo } from "../index";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,8 +14,7 @@ export function Header() {
       <Styled.CSContainer>
         <div className="headerContainer">
           <div className="logo">
-            <span></span>
-            <div>joakimlees</div>
+            <Logo />
           </div>
           <div>
             <HamburgerButton setMenuOpen={setMenuOpen} menuOpen={menuOpen} />

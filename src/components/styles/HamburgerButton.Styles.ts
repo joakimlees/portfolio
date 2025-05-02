@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HamburgerButton = styled.button`
   display: block;
   position: fixed;
-  top: 20px;
+  top: 25px;
   border: none;
   right: 50px;
   height: 30px;
@@ -26,7 +26,7 @@ export const HamburgerButton = styled.button`
       display: block;
       width: 70%;
       height: 0px;
-      border: 2px solid white;
+      border: 2px solid ${({ theme }) => theme.color.primaryDark};
       border-radius: 10px;
       transition: all 0.3s ease;
     }

@@ -3,5 +3,5 @@ import styled from "styled-components";
 export const Layout = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.color.darkBlue};
+  background-color: ${({ theme }) => theme.color.primaryLight};
 `;

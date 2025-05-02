@@ -5,13 +5,13 @@ export const Navigation = styled.nav`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${({ theme }) => theme.color.darkPurple};
+  background-color: ${({ theme }) => theme.color.cardBackground};
   position: fixed;
   right: 0px;
   top: 0px;
   height: 100vh;
   width: min(75vw, 375px);
-  box-shadow: -10px 0 25px -15px ${({ theme }) => theme.color.dark};
+  box-shadow: -10px 0 25px -15px ${({ theme }) => theme.color.darkHover};
 
   transition: transform 0.3s ease-in-out;
   transform: ${({ className }) =>
@@ -30,7 +30,7 @@ export const Navigation = styled.nav`
         font-size: ${({ theme }) => theme.font.size.medium};
         font-family: ${({ theme }) => theme.font.family.navLink};
         font-weight: ${({ theme }) => theme.font.weight.semiBold};
-        color: ${({ theme }) => theme.color.light};
+        color: ${({ theme }) => theme.color.primaryLight};
         text-decoration: none;
       }
     }

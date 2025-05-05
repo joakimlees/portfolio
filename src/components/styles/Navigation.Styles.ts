@@ -46,7 +46,7 @@ export const Navigation = styled.nav`
     }
   }
 
-  @media (max-width: 1000px) {
+  @media (min-width: 1000px) {
     display: none;
   }
 `;

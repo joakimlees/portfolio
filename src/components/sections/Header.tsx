@@ -17,6 +17,13 @@ export function Header() {
             <Logo />
           </div>
           <div>
+            <nav>
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Contact</a>
+            </nav>
+          </div>
+          <div>
             <HamburgerButton setMenuOpen={setMenuOpen} menuOpen={menuOpen} />
           </div>
           <div>

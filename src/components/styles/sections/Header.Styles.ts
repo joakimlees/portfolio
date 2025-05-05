@@ -7,6 +7,7 @@ export const Header = styled.header`
   .headerContainer {
     display: flex;
     justify-content: space-between;
+    padding: 0px 15px;
   }
 
   .logo {

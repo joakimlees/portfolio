@@ -63,6 +63,10 @@ export const HamburgerButton = styled.button`
         bottom: 40%;
         left: 0%;
       }
+
+      span {
+        border-color: ${({ theme }) => theme.color.primaryLight};
+      }
     }
 
     &.closed {
@@ -80,5 +84,9 @@ export const HamburgerButton = styled.button`
         bottom: 0;
       }
     }
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
   }
 `;

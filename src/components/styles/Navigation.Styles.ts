@@ -45,4 +45,8 @@ export const Navigation = styled.nav`
       max-width: 30px;
     }
   }
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;

@@ -16,7 +16,7 @@ export function Header() {
           <div className="logo">
             <Logo />
           </div>
-          <div>
+          <div className="menuLinksContainer">
             <nav>
               <a href="">Home</a>
               <a href="">About</a>

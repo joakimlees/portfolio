@@ -82,6 +82,7 @@ export const theme = {
       navLink: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
       button: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
       util: "'Inter', 'Public Sans', 'Open Sans', 'Nunito Sans', sans-serif",
+      logo: "'Baloo 2', ",
     },
     size: {
       xxSmall: "0.75rem", // 12px

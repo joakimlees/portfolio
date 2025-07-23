@@ -12,11 +12,22 @@ export const Header = styled.header`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      order: 1;
+      margin-right: 10%;
+
+      @media (max-width: 999px) {
+        display: none;
+      }
 
       nav {
         display: flex;
+        gap: 120px;
 
         a {
+          font-family: ${({ theme }) => theme.font.family.navLink};
+          font-size: ${({ theme }) => theme.font.size.small};
+          color: ${({ theme }) => theme.color.primaryDark};
+          font-weight: ${({ theme }) => theme.font.weight.semiBold};
           text-decoration: none;
         }
       }

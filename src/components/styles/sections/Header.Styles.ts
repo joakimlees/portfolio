@@ -6,7 +6,7 @@ export const Header = styled.header`
   .headerContainer {
     display: flex;
     justify-content: space-between;
-    padding: 0px 15px;
+    padding: 15px;
 
     .menuLinksContainer {
       display: flex;
@@ -35,6 +35,8 @@ export const Header = styled.header`
   }
 
   .logo {
+    margin-left: 2%;
+
     svg {
       width: 90px;
     }

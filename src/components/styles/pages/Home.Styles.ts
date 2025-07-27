@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
 export const Home = styled.main`
+  height: 100vh;
   flex-grow: 1;
 `;

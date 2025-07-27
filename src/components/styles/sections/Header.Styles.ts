@@ -13,7 +13,6 @@ export const Header = styled.header`
       flex-direction: column;
       justify-content: center;
       order: 1;
-      margin-right: 10%;
 
       @media (max-width: 999px) {
         display: none;
@@ -35,8 +34,6 @@ export const Header = styled.header`
   }
 
   .logo {
-    margin-left: 2%;
-
     svg {
       width: 90px;
     }

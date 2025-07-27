@@ -10,18 +10,13 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 body {
-    height: 100vh;
     overflow-x: hidden;
+    height: 100%;
 }
 
 #root {
     height: 100%;
 }
-
-main {
-    height: 100%;
-}
-
 
 
 h1 {

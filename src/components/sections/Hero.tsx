@@ -1,4 +1,5 @@
 import * as Styled from "../styles/index";
+import { LinkButton } from "../LinkButton";
 
 export function Hero() {
   return (
@@ -12,8 +13,8 @@ export function Hero() {
           projects and share a bit about who I am. Have a look around
         </p>
         <div className="duo-button-container">
-          <a href="">View my projects</a>
-          <a href="">Contact me</a>
+          <LinkButton href="https://example.com" text="Click Me" />
+          <LinkButton href="https://example.com" text="Click Mdsadsafsde" />
         </div>
       </div>
     </Styled.Hero>

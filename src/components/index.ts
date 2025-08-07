@@ -4,4 +4,5 @@ export * from "./pages/Home";
 export * from "./sections/Header";
 export * from "./sections/Footer";
 export * from "./HamburgerButton";
+export * from "./LinkButton";
 export { default as Logo } from "./Logo";

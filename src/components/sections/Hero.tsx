@@ -6,7 +6,7 @@ export function Hero() {
     <Styled.Hero>
       <div className="hero-main-content">
         <span>FRONTEND DEVELOPER</span>
-        <h1>Joakim Lee</h1>
+        <h1>JOAKIM LEE</h1>
         <p>
           Hello there, and welcome to my little corner of the internet. I’m a
           front-end developer from Norway, and this is where I showcase my

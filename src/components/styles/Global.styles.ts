@@ -19,8 +19,20 @@ body {
 }
 
 
+h1, h2, h3, h4, h5 {
+  font-family: ${({ theme }) => theme.font.family.heading};
+  font-weight: ${({ theme }) => theme.font.weight.bold};
+}
+
 h1 {
-  
+    font-size: ${({ theme }) => theme.font.size.xxLarge};
+}
+
+p {
+      font-family: ${({ theme }) => theme.font.family.body};
+  font-weight: ${({ theme }) => theme.font.weight.regular};
+  font-size:   font-family: ${({ theme }) => theme.font.size.xSmall};
+
 }
 
 

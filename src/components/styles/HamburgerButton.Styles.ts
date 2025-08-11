@@ -86,7 +86,7 @@ export const HamburgerButton = styled.button`
     }
   }
 
-  @media (min-width: 1000px) {
+  @media (min-width: ${({ theme }) => theme.screen.large}) {
     display: none;
   }
 `;

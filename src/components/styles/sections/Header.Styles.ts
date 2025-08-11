@@ -13,7 +13,7 @@ export const Header = styled.header`
       justify-content: center;
       order: 1;
 
-      @media (max-width: 999px) {
+      @media (max-width: 1079px) {
         display: none;
       }
 

@@ -6,7 +6,6 @@ export const Header = styled.header`
   .headerContainer {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
 
     .menuLinksContainer {
       display: flex;

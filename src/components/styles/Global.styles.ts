@@ -29,9 +29,9 @@ h1 {
 }
 
 p {
-      font-family: ${({ theme }) => theme.font.family.body};
-  font-weight: ${({ theme }) => theme.font.weight.regular};
-  font-size:   font-family: ${({ theme }) => theme.font.size.xSmall};
+    font-family: ${({ theme }) => theme.font.family.body};
+    font-weight: ${({ theme }) => theme.font.weight.regular};
+    font-size:   font-family: ${({ theme }) => theme.font.size.xSmall};
 
 }
 

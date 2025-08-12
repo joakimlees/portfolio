@@ -32,6 +32,7 @@ p {
     font-family: ${({ theme }) => theme.font.family.body};
     font-weight: ${({ theme }) => theme.font.weight.regular};
     font-size:   font-family: ${({ theme }) => theme.font.size.xSmall};
+    max-width: 800px;
 
 }
 

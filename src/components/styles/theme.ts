@@ -1,4 +1,4 @@
-interface theme {
+export interface theme {
   color: {
     primaryTeal: string;
     accentYellow: string;

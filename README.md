@@ -32,3 +32,8 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 test 123 09.04
+
+Icons by Font Awesome (CC BY 4.0)
+Font Awesome Free v7.0.0 by @fontawesome
+License: https://fontawesome.com/license/free
+Copyright 2025 Fonticons, Inc.

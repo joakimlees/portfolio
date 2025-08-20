@@ -1,14 +1,27 @@
 import * as Styled from "../styles/index";
-import { IconReact, IconStyledComponents, IconGoogleAnalytics } from "../icons";
-import { theme } from "../styles/index";
+import {
+  IconReact,
+  IconTypeScript,
+  IconTailwind,
+  IconBootstrap,
+  IconNpm,
+  IconNodeJs,
+  IconStyledComponents,
+  IconScss,
+} from "../icons";
 
 export function About() {
   return (
     <Styled.About>
-      <h1>About sectiddon</h1>
-      <IconReact size={40} color={theme.color.primaryTeal} />
-      <IconStyledComponents size={300} color={theme.color.primaryTeal} />
-      <IconGoogleAnalytics size={30} />
+      <IconReact size={100} />
+      <IconTypeScript size={100} />
+      <IconTailwind size={100} />
+      <IconBootstrap size={100} />
+      <IconNpm size={100} />
+      <IconNodeJs size={100} />
+      <IconStyledComponents size={100} />
+      <IconScss size={100} />
+      <h1>About section</h1>
     </Styled.About>
   );
 }

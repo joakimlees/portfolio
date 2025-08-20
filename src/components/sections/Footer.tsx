@@ -9,6 +9,12 @@ export function Footer() {
         Awesome Free v7.0.0 by @fontawesome License:
         https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.
       </p>
+      <p>
+        Icons for GitHub and styled-components are used under the MIT License.
+        <br />
+        All other technology logos are used under their official brand or public
+        resources.
+      </p>
     </Styled.Footer>
   );
 }

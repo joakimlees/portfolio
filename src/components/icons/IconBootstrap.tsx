@@ -1,21 +1,69 @@
 import React from "react";
 
 interface IconProps {
-  size?: number;
-  color?: string;
+  size?: number | string;
 }
 
-export const IconBootstrap: React.FC<IconProps> = ({
-  size = 24,
-  color = "currentColor",
-}) => (
+export const IconBootstrap: React.FC<IconProps> = ({ size = 24 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 640 640"
+    viewBox="0 0 512 408"
     width={size}
     height={size}
-    fill={color}
   >
-    <path d="M365.5 265.4C365.5 243.3 349.9 231.1 322.5 231.1L272.1 231.1L272.1 302.3L314.6 302.3C347.4 302.2 365.5 289 365.5 265.4zM549 252.6C539.5 221.7 538.1 183.8 539.2 154.5C540.3 124 516.5 96 484.5 96L155.7 96C123.6 96 99.9 124.1 101 154.5C102 183.8 100.7 221.7 91.2 252.6C81.6 283.6 65.5 303.2 39 305.7L39 334.2C65.4 336.7 81.6 356.3 91.2 387.3C100.7 418.2 102.1 456.1 101 485.4C99.9 515.9 123.7 543.9 155.7 543.9L484.4 543.9C516.5 543.9 540.2 515.8 539.1 485.4C538.1 456.1 539.4 418.2 548.9 387.3C558.5 356.3 574.6 336.7 601 334.2L601 305.7C574.7 303.2 558.5 283.6 549 252.6zM332.2 439.1L234.3 439.1L234.3 200.8L331.7 200.8C375 200.8 403.4 224.2 403.4 260.2C403.4 285.5 384.3 308.1 359.9 312L359.9 313.3C393.1 316.9 415.4 339.9 415.4 371.6C415.4 413.7 384.1 439.1 332.2 439.1zM322.2 330.4L272.1 330.4L272.1 408.8L324.4 408.8C358.6 408.8 376.7 395.1 376.7 369.3C376.7 343.6 358.1 330.4 322.2 330.4z" />
+    <defs>
+      <linearGradient
+        id="bs-logo-a"
+        x1="76.079"
+        x2="523.48"
+        y1="10.798"
+        y2="365.945"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#9013fe" />
+        <stop offset="1" stopColor="#6610f2" />
+      </linearGradient>
+      <linearGradient
+        id="bs-logo-b"
+        x1="193.508"
+        x2="293.514"
+        y1="109.74"
+        y2="278.872"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#fff" />
+        <stop offset="1" stopColor="#f1e5fc" />
+      </linearGradient>
+      <filter
+        id="bs-logo-c"
+        width="197"
+        height="249"
+        x="161.901"
+        y="83.457"
+        colorInterpolationFilters="sRGB"
+        filterUnits="userSpaceOnUse"
+      >
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="8" />
+        <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
+        <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+        <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+      </filter>
+    </defs>
+    <path
+      fill="url(#bs-logo-a)"
+      d="M56.481 53.32C55.515 25.58 77.128 0 106.342 0h299.353c29.214 0 50.827 25.58 49.861 53.32-.928 26.647.277 61.165 8.964 89.31 8.715 28.232 23.411 46.077 47.48 48.37v26c-24.069 2.293-38.765 20.138-47.48 48.37-8.687 28.145-9.892 62.663-8.964 89.311.966 27.739-20.647 53.319-49.861 53.319H106.342c-29.214 0-50.827-25.58-49.86-53.319.927-26.648-.278-61.166-8.966-89.311C38.802 237.138 24.07 219.293 0 217v-26c24.069-2.293 38.802-20.138 47.516-48.37 8.688-28.145 9.893-62.663 8.965-89.31z"
+    />
+    <path
+      fill="url(#bs-logo-b)"
+      filter="url(#bs-logo-c)"
+      stroke="#fff"
+      d="M267.103 312.457c47.297 0 75.798-23.158 75.798-61.355 0-28.873-20.336-49.776-50.532-53.085v-1.203c22.185-3.609 39.594-24.211 39.594-47.219 0-32.783-25.882-54.138-65.322-54.138h-88.74v217h89.202zm-54.692-189.48h45.911c24.958 0 39.131 11.128 39.131 31.279 0 21.505-16.484 33.535-46.372 33.535h-38.67v-64.814zm0 161.961v-71.431h45.602c32.661 0 49.608 12.03 49.608 35.49 0 23.459-16.484 35.941-47.605 35.941h-47.605z"
+    />
   </svg>
 );

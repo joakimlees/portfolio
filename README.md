@@ -33,6 +33,12 @@ export default {
 
 test 123 09.04
 
+## Icon Credits
+
+- **GitHub Octicon** — © GitHub Inc., licensed under MIT License (see [license](LICENSE) in icon source).
+- **styled-components logo** — © styled-components team, licensed under MIT License.
+  Other logos (LinkedIn, Instagram, React, Tailwind CSS, Bootstrap, TypeScript, Sass) are from their official public assets with no attribution required, used under respective brand guidelines.
+
 Icons by Font Awesome (CC BY 4.0)
 Font Awesome Free v7.0.0 by @fontawesome
 License: https://fontawesome.com/license/free

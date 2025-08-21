@@ -8,4 +8,5 @@ export * from "./pages/Home.Styles";
 export * from "./HamburgerButton.Styles";
 export * from "./sections/Hero.Styles";
 export * from "./sections/About.Styles";
+export * from "./sections/Technologies.Styles";
 export * from "./LinkButton.Styles";

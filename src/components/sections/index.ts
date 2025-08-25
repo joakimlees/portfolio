@@ -3,3 +3,5 @@ export * from "./Header";
 export * from "./Hero";
 export * from "./Technologies";
 export * from "./Footer";
+export * from "./Projects";
+export * from "./Contact";

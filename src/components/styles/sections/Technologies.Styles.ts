@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Technologies = styled.section`
   margin-top: 200px;
 
-  h1 {
+  h2 {
     font-family: ${({ theme }) => theme.font.family.heading};
     font-weight: ${({ theme }) => theme.font.weight.semiBold};
     font-size: ${({ theme }) => theme.font.size.medium};
@@ -31,8 +31,7 @@ export const Technologies = styled.section`
       border-style: solid;
       border-width: 1px;
       border-radius: 5px;
-      padding: 10px 15px;
-      width: 300px;
+      padding: 10px 40px 10px 10px;
     }
   }
 `;

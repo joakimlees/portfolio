@@ -13,7 +13,7 @@ import {
 export function Technologies() {
   return (
     <Styled.Technologies>
-      <h1>Technologies</h1>
+      <h2>Technologies</h2>
       <div className="icon-pill-wrapper">
         <div className="icon-pill">
           <IconReact size={30} />

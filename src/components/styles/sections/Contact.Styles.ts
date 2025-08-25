@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const About = styled.section`
+export const Contact = styled.section`
   margin-top: 200px;
 
   h2 {

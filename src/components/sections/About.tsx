@@ -3,7 +3,7 @@ import * as Styled from "../styles/index";
 export function About() {
   return (
     <Styled.About>
-      <h1>About section</h1>
+      <h2>About me</h2>
     </Styled.About>
   );
 }

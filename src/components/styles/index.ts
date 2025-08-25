@@ -10,3 +10,5 @@ export * from "./sections/Hero.Styles";
 export * from "./sections/About.Styles";
 export * from "./sections/Technologies.Styles";
 export * from "./LinkButton.Styles";
+export * from "./sections/Projects.Styles";
+export * from "./sections/Contact.Styles";

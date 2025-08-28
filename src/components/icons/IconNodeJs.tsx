@@ -1,8 +1,5 @@
 import React from "react";
-
-interface IconProps {
-  size?: number;
-}
+import { IconProps } from "../../types";
 
 export const IconNodeJs: React.FC<IconProps> = ({ size = 24 }) => (
   <svg

@@ -24,9 +24,9 @@ export const LinkButton = ({
   return (
     <Styled.LinkButton
       href={href}
-      bgColor={bgColor}
-      textColor={textColor}
-      borderColor={borderColor}
+      $bgColor={bgColor}
+      $textColor={textColor}
+      $borderColor={borderColor}
       onClick={onClick}
       target={target}
       rel={rel}

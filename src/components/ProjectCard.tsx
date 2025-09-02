@@ -1,42 +1,24 @@
 import * as Styled from "./styles/index";
-import Image from "../build/images/sciencemus.jpg";
-import {
-  IconReact,
-  IconTypeScript,
-  IconTailwind,
-  IconBootstrap,
-  IconNpm,
-  IconNodeJs,
-  IconStyledComponents,
-  IconScss,
-} from "./icons/index";
+import React from "react";
+import { Project } from "../types/Project";
 
-export function ProjectCard() {
+interface ProjectCardProps {
+  project: Project;
+}
+
+export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <Styled.ProjectCard>
       <div className="project__card__image">
-        <img src={Image} alt="" />
+        <img src={project.image} alt="" />
       </div>
       <div className="project__card__content">
-        <h3>Science Museum</h3>
-        <p className="project__card__text">
-          Qui magnam praesentium sit accusamus illo et magnam veniam et internos
-          blanditiis. Est rerum debitis qui voluptatum quae vel autem libero qui
-          consequatur consequatur.
-        </p>
+        <h3>{project.title}</h3>
+        <p className="project__card__text">{project.description}</p>
         <div className="project__card__pills">
-          <div className="project__card__pill">
-            <IconTypeScript size={20} />
-            <p>TypeScript</p>
-          </div>
-          <div className="project__card__pill">
-            <IconTypeScript size={20} />
-            <p>TypeScript</p>
-          </div>
-          <div className="project__card__pill">
-            <IconTypeScript size={20} />
-            <p>TypeScript</p>
-          </div>
+          {project.techPills.map((pill, i) => (
+            <React.Fragment key={i}>{pill}</React.Fragment>
+          ))}
         </div>
       </div>
     </Styled.ProjectCard>

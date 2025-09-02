@@ -13,3 +13,4 @@ export * from "./LinkButton.Styles";
 export * from "./sections/Projects.Styles";
 export * from "./sections/Contact.Styles";
 export * from "./ProjectCard.Styles";
+export * from "./TechPill.Styles";

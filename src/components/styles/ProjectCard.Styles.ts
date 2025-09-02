@@ -39,17 +39,6 @@ export const ProjectCard = styled.div`
     .project__card__pills {
       display: flex;
       gap: 10px;
-
-      .project__card__pill {
-        font-size: ${({ theme }) => theme.font.size.xxSmall};
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 5px;
-        padding: 5px 20px 5px 5px;
-      }
     }
   }
 `;

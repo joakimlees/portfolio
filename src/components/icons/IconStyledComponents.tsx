@@ -23,9 +23,9 @@ export const IconStyledComponents: React.FC<IconProps> = ({ size = 24 }) => (
       />
       <text
         fill="#000"
-        font-family="AppleColorEmoji, Apple Color Emoji"
-        font-size="100"
-        letter-spacing=".5"
+        fontFamily="AppleColorEmoji, Apple Color Emoji"
+        fontSize="100"
+        letterSpacing=".5"
         transform="translate(38 44)"
       >
         <tspan x="70" y="100">

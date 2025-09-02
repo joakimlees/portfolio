@@ -6,4 +6,5 @@ export * from "./sections/Footer";
 export * from "./HamburgerButton";
 export * from "./LinkButton";
 export * from "./ProjectCard";
+export * from "./TechPill";
 export { default as Logo } from "./Logo";

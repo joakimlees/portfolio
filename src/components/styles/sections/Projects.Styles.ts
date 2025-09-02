@@ -17,5 +17,6 @@ export const Projects = styled.section`
   .projects__container {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
   }
 `;

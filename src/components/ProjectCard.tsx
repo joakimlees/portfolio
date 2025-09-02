@@ -8,7 +8,11 @@ interface ProjectCardProps {
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <Styled.ProjectCard>
+    <Styled.ProjectCard
+      href={project.projectUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className="project__card__image">
         <img src={project.image} alt="" />
       </div>

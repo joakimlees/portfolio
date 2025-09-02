@@ -21,6 +21,7 @@ export const projects: Project[] = [
       <TechPill icon={<IconReact size={20} />} label="React" />,
       <TechPill icon={<IconTypeScript size={20} />} label="TypeScript" />,
     ],
+    projectUrl: "https://joakimlees-science-museum-project.netlify.app/",
   },
   {
     id: 2,
@@ -33,6 +34,7 @@ export const projects: Project[] = [
       <TechPill icon={<IconNpm size={20} />} label="NPM" />,
       <TechPill icon={<IconTypeScript size={20} />} label="TypeScript" />,
     ],
+    projectUrl: "https://joakimlees-science-museum-project.netlify.app/",
   },
   {
     id: 3,
@@ -43,6 +45,7 @@ export const projects: Project[] = [
       <TechPill icon={<IconReact size={20} />} label="React" />,
       <TechPill icon={<IconTypeScript size={20} />} label="TypeScript" />,
     ],
+    projectUrl: "https://joakimlees-science-museum-project.netlify.app/",
   },
   {
     id: 4,
@@ -55,5 +58,6 @@ export const projects: Project[] = [
       <TechPill icon={<IconNpm size={20} />} label="NPM" />,
       <TechPill icon={<IconTypeScript size={20} />} label="TypeScript" />,
     ],
+    projectUrl: "https://joakimlees-science-museum-project.netlify.app/",
   },
 ];

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectCard = styled.div`
+export const ProjectCard = styled.a`
   display: flex;
   padding: 15px;
   gap: 20px;

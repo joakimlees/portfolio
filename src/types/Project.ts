@@ -6,4 +6,5 @@ export interface Project {
   image: string;
   description: string;
   techPills: ReactNode[];
+  projectUrl: string;
 }

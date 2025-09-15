@@ -5,17 +5,16 @@ export const ProjectCard = styled.a`
   padding: 15px;
   gap: 20px;
   width: 800px;
-  border-width: 1px;
   text-decoration: none;
-  border-radius: 5px;
   color: ${({ theme }) => theme.color.primaryDark};
-  box-shadow: 0 4px 6px ${({ theme }) => theme.color.primaryDark};
 
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 
   &:hover {
-    box-shadow: 0 6px 10px ${({ theme }) => theme.color.primaryTeal};
-    transform: translateY(-2px);
+    box-shadow: 0 3px 6px ${({ theme }) => theme.color.primaryDark};
+    transform: translateX(100px);
+    border-bottom: none;
+    border-radius: 5px;
   }
 
   .project__card__image {
@@ -23,9 +22,7 @@ export const ProjectCard = styled.a`
     height: 100%;
     overflow: hidden;
     border-radius: 5px;
-    border-style: solid;
-    border-color: ${({ theme }) => theme.color.secondaryGray};
-    border-width: 1px;
+    border: 1px solid ${({ theme }) => theme.color.secondaryGray};
 
     img {
       display: block;

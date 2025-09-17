@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Hero = styled.section`
+  animation: ${({ theme }) => theme.animations.fadeIn} 1s ease-out forwards;
+
   max-width: 550px;
+  margin: 200px 0 550px;
 
   span {
     color: ${({ theme }) => theme.color.accentPink};

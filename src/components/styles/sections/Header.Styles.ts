@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   background-color: ${({ theme }) => theme.color.primaryLight};
+  animation: ${({ theme }) => theme.animations.fadeIn} 1s ease-out forwards;
 
   .headerContainer {
     display: flex;

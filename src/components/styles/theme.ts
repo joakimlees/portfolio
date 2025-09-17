@@ -1,4 +1,9 @@
+import { fadeIn } from "./animations";
+
 export interface theme {
+  animations: {
+    fadeIn: string;
+  };
   color: {
     primaryTeal: string;
     accentYellow: string;
@@ -58,6 +63,9 @@ export interface theme {
 }
 
 export const theme = {
+  animations: {
+    fadeIn: fadeIn,
+  },
   color: {
     primaryTeal: "#00A896",
     accentYellow: "#F6C700",

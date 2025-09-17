@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CSContainer = styled.div`
-  max-width: 2560px;
+  max-width: 1920px;
   margin: 0px auto;
   padding: 10px 16px;
 

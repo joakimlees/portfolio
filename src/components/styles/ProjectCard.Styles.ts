@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ProjectCard = styled.a`
   display: flex;
+  justify-content: space-between;
   padding: 15px;
   gap: 20px;
   width: 800px;
@@ -21,6 +22,7 @@ export const ProjectCard = styled.a`
   }
 
   .project__card__image {
+    order: 2;
     width: 300px;
     height: 100%;
     overflow: hidden;
@@ -56,6 +58,7 @@ export const ProjectCard = styled.a`
 
     .project__card__pills {
       display: flex;
+      flex-wrap: wrap;
       gap: 10px;
     }
   }

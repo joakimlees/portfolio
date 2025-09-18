@@ -15,3 +15,4 @@ export * from "./sections/Contact.Styles";
 export * from "./ProjectCard.Styles";
 export * from "./TechPill.Styles";
 export * from "./sections/StandardSection.Styles";
+export * from "./animations";

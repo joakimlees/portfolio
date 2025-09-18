@@ -7,4 +7,5 @@ export * from "./HamburgerButton";
 export * from "./LinkButton";
 export * from "./ProjectCard";
 export * from "./TechPill";
+export * from "./FadeOnScroll";
 export { default as Logo } from "./Logo";

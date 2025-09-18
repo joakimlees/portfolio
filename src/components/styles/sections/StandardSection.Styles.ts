@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StandardSection = styled.section`
-  margin: 0px 0px 550px;
+  margin: 0px 0px 350px;
 
   h2 {
     font-family: ${({ theme }) => theme.font.family.heading};

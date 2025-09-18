@@ -14,9 +14,10 @@ import {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Portfolio Website",
+    title: "Ecommerce | Bilder og kunst",
     image: "/images/sciencemus.jpg",
-    description: "A personal portfolio built with Next.js and Tailwind.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     techPills: [
       <TechPill icon={<IconReact size={20} />} label="React" />,
       <TechPill icon={<IconTypeScript size={20} />} label="TypeScript" />,
@@ -25,9 +26,10 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Todo App",
+    title: "App | To do",
     image: "/images/sciencemus.jpg",
-    description: "A todo app with drag-and-drop support.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     techPills: [
       <TechPill icon={<IconReact size={20} />} label="React" />,
       <TechPill icon={<IconBootstrap size={20} />} label="Boostrap" />,
@@ -38,9 +40,10 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "B2C | Nettside 3",
     image: "/images/sciencemus.jpg",
-    description: "A personal portfolio built with Next.js and Tailwind.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     techPills: [
       <TechPill icon={<IconReact size={20} />} label="React" />,
       <TechPill icon={<IconTypeScript size={20} />} label="TypeScript" />,
@@ -49,9 +52,10 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Portfolio Website",
+    title: "This is the website",
     image: "/images/sciencemus.jpg",
-    description: "A personal portfolio built with Next.js and Tailwind.",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  ",
     techPills: [
       <TechPill icon={<IconReact size={20} />} label="React" />,
       <TechPill icon={<IconBootstrap size={20} />} label="Boostrap" />,

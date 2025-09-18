@@ -7,14 +7,17 @@ export const ProjectCard = styled.a`
   width: 800px;
   text-decoration: none;
   color: ${({ theme }) => theme.color.primaryDark};
+  border: 1px solid ${({ theme }) => theme.color.primaryDark};
+  border-radius: 5px;
 
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition: box-shadow 0.2s ease;
 
   &:hover {
-    box-shadow: 0 3px 6px ${({ theme }) => theme.color.primaryDark};
-    transform: translateX(100px);
-    border-bottom: none;
-    border-radius: 5px;
+    box-shadow: 0 6px 12px ${({ theme }) => theme.color.accentPink};
+
+    .project__card__content h3 span {
+      transform: translate(3px, -6px);
+    }
   }
 
   .project__card__image {
@@ -39,6 +42,12 @@ export const ProjectCard = styled.a`
       font-family: ${({ theme }) => theme.font.family.heading};
       font-weight: ${({ theme }) => theme.font.weight.semiBold};
       color: ${({ theme }) => theme.color.secondaryGray};
+    }
+
+    span {
+      margin-left: 10px;
+      display: inline-block;
+      transition: transform 0.2s ease;
     }
 
     .project__card__text {

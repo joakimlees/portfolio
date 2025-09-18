@@ -6,3 +6,4 @@ export * from "./IconNpm";
 export * from "./IconNodeJs";
 export * from "./IconStyledComponents";
 export * from "./IconScss";
+export * from "./IconArrowTopRight";

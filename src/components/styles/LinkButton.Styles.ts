@@ -20,8 +20,10 @@ export const LinkButton = styled.a<{
   text-decoration: none;
   padding: 12px 37px;
 
+  transition: box-shadow 0.2s ease;
+
   &:hover {
-    opacity: 0.9;
-    transform: scale(1.02);
+    box-shadow: 0 6px 12px ${({ theme }) => theme.color.darkHover};
+    opacity: 95%;
   }
 `;

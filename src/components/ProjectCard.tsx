@@ -1,6 +1,17 @@
 import * as Styled from "./styles/index";
 import React from "react";
 import { Project } from "../types/Project";
+import {
+  IconReact,
+  IconTypeScript,
+  IconTailwind,
+  IconBootstrap,
+  IconNpm,
+  IconNodeJs,
+  IconStyledComponents,
+  IconScss,
+  IconArrowUpRight,
+} from "./icons/index";
 
 interface ProjectCardProps {
   project: Project;
@@ -17,7 +28,12 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <img src={project.image} alt="" />
       </div>
       <div className="project__card__content">
-        <h3>{project.title}</h3>
+        <h3>
+          {project.title}
+          <span>
+            <IconArrowUpRight size={16} color="#E94E77" />
+          </span>
+        </h3>
         <p className="project__card__text">{project.description}</p>
         <div className="project__card__pills">
           {project.techPills.map((pill, i) => (

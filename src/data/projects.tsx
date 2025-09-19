@@ -14,7 +14,7 @@ import {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Ecommerce | Bilder og kunst",
+    title: "Community Science Museum",
     image: "/images/sciencemus.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
@@ -26,8 +26,8 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "App | To do",
-    image: "/images/sciencemus.jpg",
+    title: "Ecommerce store",
+    image: "/images/ecom.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     techPills: [
@@ -40,8 +40,8 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "B2C | Nettside 3",
-    image: "/images/sciencemus.jpg",
+    title: "Booking venues site",
+    image: "/images/holidaze.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     techPills: [
@@ -52,8 +52,8 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "This is the website",
-    image: "/images/sciencemus.jpg",
+    title: "Auction house project",
+    image: "/images/ah-project.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  ",
     techPills: [

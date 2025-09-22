@@ -6,28 +6,33 @@ export const Footer = styled.footer`
     border-top: solid;
     border-width: 1px;
     border-color: ${({ theme }) => theme.color.primaryDark};
-    padding: 80px 0px;
+    padding: 50px 0px;
     justify-content: space-between;
-    gap: 28px;
-    font-size: font-size: ${({ theme }) => theme.font.size.xxSmall};
+    gap: 200px;
+    font-size: ${({ theme }) => theme.font.size.xSmall};
 
     .footer-right {
       text-align: right;
+ 
 
-      span {
-      color: ${({ theme }) => theme.color.accentPink};
-
+      p {
+        font-size: ${({ theme }) => theme.font.size.xSmall};
       }
 
-
+      span {
+        color: ${({ theme }) => theme.color.accentPink};
+      }
     }
 
-    p {
-      margin-top: 12px;
+
+    .copyright {
+    margin-bottom: 120px;
     }
-    a {
-      text-decoration: none;
-      color: ${({ theme }) => theme.color.accentPink};
+
+      a {
+        text-decoration: none;
+        color: ${({ theme }) => theme.color.accentPink};
+      }
     }
   }
 `;

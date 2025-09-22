@@ -8,8 +8,7 @@ export function Footer() {
         <Styled.CSContainer>
           <div className="footer-split-container">
             <div className="footer-left">
-              <p>&copy; 2025 joakimlees.com</p>
-
+              <p className="copyright">&copy; 2025 joakimlees.com</p>
               <p>
                 <small>
                   Icons by Font Awesome (CC BY 4.0) · Font Awesome Free v7.0.0
@@ -40,9 +39,11 @@ export function Footer() {
             </div>
             <div className="footer-right">
               <p>
-                Initially crafted in Figma and brought to life in Visual Studio
-                Code. Built with React, Vite & TypeScript, styled with CSS
-                Modules. Deployed with x
+                Initially crafted in <span>Figma</span> and brought to life in
+                <span>Visual Studio Code</span>. Built with <span>React</span>,
+                <span>Typescript</span>
+                <span>Vite</span> & , styled with <span>styled-components</span>
+                . Deployed with <span>Netlify</span>
               </p>
             </div>
           </div>
